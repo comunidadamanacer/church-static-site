@@ -26,22 +26,22 @@ menu:
     - name: Recursos
       url: '#'
       weight: 3
-    - name: Audios
-      url: /audios
+    - name: Podcasts
+      url: /podcasts
       parent: Recursos
       weight: 1
     - name: Cursos
-      url: /audio
+      url: /cursos
       parent: Recursos
       weight: 2
     - name: Blog
-      url: /blog
+      url: /posts
       weight: 4
     - name: Contacto
       url: /contacto
       weight: 5
 params:
-  title: Comunidad Amanacer
+  title: Comunidad Amanecer
   subtitle: Dios brilla para todos
   # author: Daniel Saunders
   keywords:
@@ -58,19 +58,19 @@ params:
   #   sml: /example16.png
   #   med: /example32.png
   banner:
-    image: img/banner-freely-68918.jpg
-  # podcast:
-  #   title: Listen to Alpha Church
-  #   summary: 'Alpha-Church sermons, talks, messages—podcasted.'
-  #   email: test@example.com
-  #   copyright: The files in the podcast are in the public domain.
-  #   image: img/podcast-cover.jpg
-  #   category: Religion & Spirituality
-  #   sub_category: Christianity
-  #   iTunes: 'https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280'
-  #   feed: >-
-  #     https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast
-  #   spotify: 'https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h'
+    image: img/freely-68918.jpg
+  podcast:
+    title: Podcasts de Comunidad Amanecer
+    summary: 'Enseñanzas, series, estudios'
+    email: test@example.com
+    copyright: © 2022 Comunidad Amanecer
+    image: img/podcast-cover.jpg
+    category: Religion & Spirituality
+    sub_category: Cristianismo
+    # iTunes: 'https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280'
+    feed: >-
+      https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast
+    spotify: 'https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h'
   map:
     service: osm
     latitude: '9.93221'
@@ -81,7 +81,7 @@ params:
     confirm_page: /contact_thanks
   footer:
     copyright:
-      - '© 2022 Comunidad Amanacer'
+      - '© 2022 Comunidad Amanecer'
       - '[Alpha Church Theme](//github.com/funkydan2/alpha-church) by [Daniel Saunders](//github.com/funkydan2)'
   links:
     - service: Facebook
@@ -91,7 +91,7 @@ params:
     - service: Podcast
       icon: fa-podcast
       icon_pack: fas
-      link: /sermons/index.xml
+      link: /podcasts/index.xml
     - service: Full RSS Feed
       icon: fa-rss
       icon_pack: fas
