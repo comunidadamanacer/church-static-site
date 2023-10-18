@@ -1,3 +1,29 @@
-#page-wrapper {
-    background: linear-gradient(to bottom, #ffde4fff, #ffde4f00);
+#page-wrapper header#header {
+    background-color: #fff
+}
+
+#page-wrapper header#header {
+    background-color: #fff
+}
+
+#page-wrapper header#header h1 {
+    background-image: url('/img/Logo_Color_1.1.png');
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+}
+
+#page-wrapper header#header h1 a {
+    color: transparent;
+    visibility: hidden;
+}
+
+#page-wrapper #banner h2 {
+    color: #163a7b;
+    font-weight: 900;
+    text-shadow: 0px 0px 80px #ffde4fff;
+}
+#page-wrapper #banner p {
+    color: #acc3ed;
+    font-weight: 300;
+    text-shadow: 0 0 10px #ffde4fff;
 }

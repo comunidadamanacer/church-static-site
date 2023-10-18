@@ -1,0 +1,51 @@
+// symlink to alpha-church vars
+// DO NOT MODIFY symlink content
+@import 'libs/alpha-church-vars';
+
+// Palette.
+$palette: (
+  bg: linear-gradient(to bottom, rgb(255, 237, 157), #ffde4f00),
+  fg: #446aafff,
+  fg-bold: #163a7b,
+  fg-light: #acc3ed,
+  border: #e5e5e5,
+  border-bg: #f8f8f8,
+  border2: #dddddd,
+  border2-bg: #f0f0f0,
+  header: (
+    bg: #fff,
+    fg: #446aafff,
+    fg-bold: #163a7b,
+    fg-light: #446aafff
+  ),
+  accent1: (
+    bg: #ffde4fff,
+    fg: mix(#666, #ffffff, 25%),
+    fg-bold: #ffffff,
+    fg-light: mix(#666, #ffffff, 40%)
+  ),
+  accent2: (
+    bg: #e89980,
+    fg: mix(#e89980, #ffffff, 25%),
+    fg-bold: #ffffff,
+    fg-light: mix(#e89980, #ffffff, 40%)
+  ),
+  accent3: (
+    bg: #7fcdb8,
+    fg: mix(#7fcdb8, #ffffff, 25%),
+    fg-bold: #ffffff,
+    fg-light: mix(#7fcdb8, #ffffff, 40%)
+  ),
+  accent4: (
+    bg: #90b0ba,
+    fg: mix(#90b0ba, #ffffff, 25%),
+    fg-bold: #ffffff,
+    fg-light: mix(#90b0ba, #ffffff, 40%)
+  ),
+  accent5: (
+    bg: #e5cb95,
+    fg: mix(#e5cb95, #ffffff, 25%),
+    fg-bold: #ffffff,
+    fg-light: mix(#e5cb95, #ffffff, 40%)
+  )
+);

@@ -56,7 +56,7 @@ menu:
       url: /contacto
       weight: 6
 params:
-  title: Comunidad Amanecer
+  title: Comunidad Cristiana Amanecer
   subtitle: Dios brilla para todos
   # author: Daniel Saunders
   keywords:
@@ -70,17 +70,17 @@ params:
   customCSS:
     - css/custom.css
   favicon:
-    sml: img/icon_Color_1.ico
-    med: img/icon_Color_1.ico
-    lge: img/icon_Color_1.ico
+    sml: /img/icon_Color_1.ico
+    med: /img/icon_Color_1.ico
+    lge: /img/icon_Color_1.ico
   banner:
-    image: img/freely-68918.jpg
+    image: /img/freely-68918.jpg
   # podcast:
   #   title: Podcasts de Comunidad Amanecer
   #   summary: 'Enseñanzas, series, estudios'
   #   email: info@comunidadamanecer.com
   #   copyright: © 2023 Comunidad Amanecer
-  #   image: img/podcast-cover.jpg
+  #   image: /img/podcast-cover.jpg
   #   category: Religión y espiritualidad
   #   sub_category: Cristianismo
   #   # iTunes: 'https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280'

@@ -37,12 +37,12 @@ feature_icons:
 feature_images:
   enable: false
   tile:
-    - image: img/freely-40707.jpg
+    - image: /img/freely-40707.jpg
       title: Ministerios
       text: Para los demás
       url: /posts
       button_text: Conoce más
-    - image: img/freely-11803.jpg
+    - image: /img/freely-11803.jpg
       title: Cursos
       text: ¿Desea aprender?
       url: /cursos
