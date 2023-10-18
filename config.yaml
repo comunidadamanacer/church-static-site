@@ -67,11 +67,12 @@ params:
   bible_popups: blb
   bible_version: NIV
   instant_page: true
-  # customCSS:
-  #   - example.css
-  # favicon:
-  #   sml: /example16.png
-  #   med: /example32.png
+  customCSS:
+    - css/custom.css
+  favicon:
+    sml: img/icon_Color_1.ico
+    med: img/icon_Color_1.ico
+    lge: img/icon_Color_1.ico
   banner:
     image: img/freely-68918.jpg
   # podcast:
