@@ -1,11 +1,12 @@
-baseURL: 'https://comunidadamanecer.netlify.app/'
-languageCode: es-cr
+baseURL: 'https://comunidadamanecer.com/'
+languageCode: es
+defaultContentLanguage: es
 title: Comunidad Amancer
 theme: alpha-church
 rssLimit: 5
-paginate: 4
+paginate: 5
 enableEmoji: true
-googleAnalytics: ''
+googleAnalytics: 'G-S4Y9RZBMQ7'
 enableInlineShortcodes: true
 markup:
   goldmark:
@@ -15,31 +16,45 @@ taxonomies:
   tag: tags
   preacher: preachers
   series: series
+# languages:
+#   es:
+#     disabled: false
+#     languageCode: es
+#     languageName: "Español"
+#     weight: 0
+#   en:
+#     disabled: true
+#     languageCode: en
+#     languageName: "English"
+#     weight: 1
 menu:
   main:
-    - name: Amanecer
+    - name: Inicio
       url: /
       weight: 1
-    - name: Comunidad
-      url: /comunidad
-      weight: 2
-    - name: Recursos
-      url: '#'
-      weight: 3
-    - name: Podcasts
-      url: /podcasts
-      parent: Recursos
-      weight: 1
+    # - name: Comunidad
+    #   url: /comunidad
+    #   weight: 2
+    # - name: Recursos
+    #   url: '#'
+    #   weight: 3
+    # - name: Podcasts
+    #   url: /podcasts
+    #   parent: Recursos
+    #   weight: 1
+    # - name: Cursos
+    #   url: /cursos
+    #   parent: Recursos
+    #   weight: 2
+    # - name: Blog
+    #   url: /posts
+    #   weight: 4
     - name: Cursos
-      url: /cursos
-      parent: Recursos
-      weight: 2
-    - name: Blog
-      url: /posts
-      weight: 4
+      url: https://gracia.krestomatio.site
+      weight: 5
     - name: Contacto
       url: /contacto
-      weight: 5
+      weight: 6
 params:
   title: Comunidad Amanecer
   subtitle: Dios brilla para todos
@@ -50,7 +65,7 @@ params:
     - podcast
   languageCode: es
   bible_popups: blb
-  bible_version: RVR60
+  bible_version: NIV
   instant_page: true
   # customCSS:
   #   - example.css
@@ -59,18 +74,18 @@ params:
   #   med: /example32.png
   banner:
     image: img/freely-68918.jpg
-  podcast:
-    title: Podcasts de Comunidad Amanecer
-    summary: 'Enseñanzas, series, estudios'
-    email: test@example.com
-    copyright: © 2022 Comunidad Amanecer
-    image: img/podcast-cover.jpg
-    category: Religion & Spirituality
-    sub_category: Cristianismo
-    # iTunes: 'https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280'
-    feed: >-
-      https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast
-    spotify: 'https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h'
+  # podcast:
+  #   title: Podcasts de Comunidad Amanecer
+  #   summary: 'Enseñanzas, series, estudios'
+  #   email: info@comunidadamanecer.com
+  #   copyright: © 2023 Comunidad Amanecer
+  #   image: img/podcast-cover.jpg
+  #   category: Religión y espiritualidad
+  #   sub_category: Cristianismo
+  #   # iTunes: 'https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280'
+  #   feed: >-
+  #     https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast
+  #   spotify: 'https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h'
   map:
     service: osm
     latitude: '9.93221'
@@ -81,18 +96,26 @@ params:
     confirm_page: /contact_thanks
   footer:
     copyright:
-      - '© 2022 Comunidad Amanecer'
+      - '© 2023 Comunidad Amanecer'
       - '[Alpha Church Theme](//github.com/funkydan2/alpha-church) by [Daniel Saunders](//github.com/funkydan2)'
   links:
+    - service: Youtube
+      icon: fa-youtube
+      icon_pack: fab
+      link: //youtube.com/@comunidadamanecer
+    - service: WhatsApp
+      icon: fa-whatsapp
+      icon_pack: fab
+      link: //wa.link/comunidadamanecer
     - service: Facebook
       icon: fa-facebook
       icon_pack: fab
-      link: //facebook.com/
-    - service: Podcast
-      icon: fa-podcast
-      icon_pack: fas
-      link: /podcasts/index.xml
-    - service: Full RSS Feed
-      icon: fa-rss
-      icon_pack: fas
-      link: /index.xml
+      link: //facebook.com/ComunidadCristianaAmanecer
+    # - service: Podcast
+    #   icon: fa-podcast
+    #   icon_pack: fas
+    #   link: /podcasts/index.xml
+    # - service: Full RSS Feed
+    #   icon: fa-rss
+    #   icon_pack: fas
+    #   link: /index.xml

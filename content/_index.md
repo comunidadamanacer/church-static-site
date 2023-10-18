@@ -4,14 +4,14 @@ banner:
     - url: /contacto
       text: Escríbenos
       type: primary
-    - url: '/audios'
+    - url: 'https://gracia.krestomatio.site'
       text: Conoce más
 services:
   title: Nos reunimos los domingos
   text: >-
-    A partir de las 11 a.m. a 12:30 p.m., en Trejos Montealegre, Escazú, San José, Costa Rica
+    A partir de las 10:30 a.m. a 12:00 p.m., en Trejos Montealegre, Escazú, San José, Costa Rica
 feature_icons:
-  enable: true
+  enable: false
   tile:
     - icon: fa-hands-helping
       icon_pack: fas
@@ -35,7 +35,7 @@ feature_icons:
       title: Amar
       text: El Amor de Dios.
 feature_images:
-  enable: true
+  enable: false
   tile:
     - image: img/freely-40707.jpg
       title: Ministerios
@@ -48,7 +48,7 @@ feature_images:
       url: /cursos
       button_text: Revisa los cursos!
 CTA:
+  enable: false
   heading: ¡Ponte en contacto!
   message: Nos encantaría recibir noticias.
-
 ---
